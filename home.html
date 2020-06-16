@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+       <meta name="theme-color" content="#000" />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Datatobsn - Innovación al negocio</title>  
+    <meta name="description" content="Somos una empresa dedicada a la creación de soluciones innovadoras, que tienen como objetivo principal ayudar a otros negocios y empresas a aprovechar los datos que generan, facilitando la toma de decisiones objetiva, correcta y oportuna"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Site CSS -->
+    <link href="{{url_for('static', filename = 'css/home/style.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename = 'css/home/mystyle.css')}}" rel="stylesheet">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Title Here" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.example.com/" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:description" content="Description Here" />
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="https://s3.amazonaws.com/datatobusiness.assets/Pesta%C3%B1a_ICON.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://s3.amazonaws.com/datatobusiness.assets/Pesta%C3%B1a_ICON.ico">
+
+    <script src="https://kit.fontawesome.com/0b2173f29a.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  
+</head>
+  <body >
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img class="img-fluid" width="150px" src="https://s3.amazonaws.com/datatobusiness.assets/Logos/DToB_Blue_plano_Azul_prueba5.png" alt="" />
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#home">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#Nosotros">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#solutions">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+    </nav>
+ 
+
+<section id="page-top">
+          <div class="text text-left" >
+            
+              <h1>Data to Business</h1>
+              <div class="typing text-left">
+                <span>Transforma </span><span id="typed"></span>
+              </div>
+              
+          </div>
+
+          <div  class="landing_image ">
+          </div>
+</section>
+
+<section id="clouds">
+        <svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+          <path d="M-5 100 Q 0 20 5 100 Z
+              M0 100 Q 5 0 10 100
+              M5 100 Q 10 30 15 100
+              M10 100 Q 15 10 20 100
+              M15 100 Q 20 30 25 100
+              M20 100 Q 25 -10 30 100
+              M25 100 Q 30 10 35 100
+              M30 100 Q 35 30 40 100
+              M35 100 Q 40 10 45 100
+              M40 100 Q 45 50 50 100
+              M45 100 Q 50 20 55 100
+              M50 100 Q 55 40 60 100
+              M55 100 Q 60 60 65 100
+              M60 100 Q 65 50 70 100
+              M65 100 Q 70 20 75 100
+              M70 100 Q 75 45 80 100
+              M75 100 Q 80 30 85 100
+              M80 100 Q 85 20 90 100
+              M85 100 Q 90 50 95 100
+              M90 100 Q 95 25 100 100
+              M95 100 Q 100 15 105 100 Z">
+          </path>
+        </svg>
+</section>
+<section  id="Nosotros" class="wb">
+<img class= "responsive imagen-nosotros" src="../static/images/dtob/team.png">
+    <div class="container">
+      <div id="about" class="section">
+              <div class="row">
+                      <div class="col-md-8 message-box text-left">                        
+                          <h2>Nosotros</h2>
+                              <p class="text-justifycards"><br>Somos una empresa dedicada a la creación e innovación de <br>soluciones tecnológicas, que tienen como objetivo principal ayudar <br>a otros negocios y empresas a aprovechar los datos que generan, <br>facilitando la toma de decisiones objetiva, correcta y oportuna.
+                                  </p>
+                          <!--<a href="https://s3.amazonaws.com/datatobusiness.assets/Presentaciones/3eff1d54-c21a-4b9c-bd6f-4cc8515d7530.pdf" class="sim-btn btn-hover-new" data-text="Descarga ⬇" download><span>Descarga aquí nuestra presentación</span></a>-->
+                      </div><!-- end messagebox -->
+                      <div class="col-md-4 message-box text-center">
+                          
+                      </div>
+              </div><!-- end row -->
+    </div><!-- end section --> 
+  </div>
+</section>
+
+<section id="vision" class="lb backgroundazulblanco">
+      <div id="about" class="container">
+          <div class="section">
+              <div class="row">
+                  <div class="col-md-6 text-center">
+                      <div class="message-box">    
+                        </div><!-- end messagebox -->
+<!--                           <div class="circle"> <i class="fas fa-binoculars fa-4x icon2"></i>                      
+                         </div>  -->                   
+                          <h2>Nuestra visión</h2>
+                              <br>
+                              <p class="text-justifycards"> Ser la empresa número uno en servicios de business intelligence, acompañando a empresas nacionales y extranjeras, en su proceso de incursión en la innovación tecnológica. </p>
+
+                  </div><!-- end col -->
+                 </div><!-- end row -->
+              <div class="row">
+                  <div class="col-md-6 text-center">
+                    <div class="message-box">     
+                    </div>   <!-- end messagebox -->
+<!--                         <div class="circle"> <i class="fas fa-rocket fa-4x icon"></i>                          
+                        </div>   -->       
+                          <h2>Nuestra misión</h2>
+                              <br>
+                              <p class="text-left">Ayudar a cualquier tipo de empresa a identificar, analizar y aprovechar los datos que generan, de manera objetiva, sencilla y eficiente, convirtiéndolos en información útil y relevante en la toma de decisiones. </p>              
+                  </div><!-- end col -->
+            </div> <!-- end row -->
+          </div><!-- end container -->
+      </div><!-- end section -->
+</section>
+
+<!-- <section id="vision" class="lb">
+      <div id="about" class="section ">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="message-box">                        
+                          <h2>Nuestra misión.</h2>
+                              <p class="text-justify">Ayudar a las empresas a identificar, analizar y aprovechar los datos que generan, de manera objetiva, sencilla y eficiente. </p>
+                      </div> end messagebox 
+                  </div> end col --> 
+<!--servicios-->
+
+<section id="services" class="lb">
+  <div class="servicesimage"> 
+      <div class="sectionservices">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="message-box">                        
+                          <h2 class="white text-left">Nuestros servicios</h2>
+                              <p class="text-justifycards white"> <br> En Data to Business enaltecemos el valor humano, por lo que previo a brindar cualquiera de nuestro servicios buscamos conocer y empatizar con las necesidades de nuestros clientes, para así poder ofrecer soluciones concretas a sus necesidades. </p>
+                              <br>
+                             <div id="table" class="container">
+
+                             </div>
+
+
+                              </div><!-- end messagebox -->
+                  </div><!-- end col -->
+                  <br><br>
+                  <div class="col-md-6">
+                      <div class="message-box negrita">                       
+
+                              <p class="text-center white"> CONSULTORÍA  | PROYECTOS PERSONALIZADOS  |  SOLUCIONES </p>
+                              <br>
+                              <img src="../static/images/dtob/2663543.jpg"class="rounded mx-auto d-block" width="50%" alt="...">
+                                                        
+                      </div><!-- end messagebox -->
+                  </div><!-- end col -->
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="solutions" class="lb">
+      <div id="about" class="section2 text-center">
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col-md-12 text-center">
+                              <h2 class="text-left white">Nuestras soluciones</h2>
+                              <p class="white"> <br>Nos especializamos en brindar soluciones diseñadas para que puedas utilizarlas de manera sencilla y rápida, incluso si ya cuentas con un software propio. En Data to Business siempre buscaremos ofrecer la tecnología necesaria para adaptarnos a tus necesidades.  </p>
+                        </div>                       
+                         <br><br>
+                          
+                         <div class="col-md-4"> 
+                    <div class="text-center">
+                        <div class="circle-soluciones"> 
+                          <i class="fas fa-code-branch fa-4x icon-identy"></i>
+                        </div>
+                        </div>
+                     
+                         
+                         <div class="text-center-soluciones"> 
+                         
+
+                        <a type="button" class="nav-link js-scroll-trigger collapsed" data-toggle="popover" title="Identificación" aria-haspopup="true" aria-expanded="false"aria-pressed="true" value="Submit" type="submit" data-content="Somos especialistas en la identificación automatizada de datos a partir de documentación, imágenes o video."><h3 class="white">Identificación</h3></a>
+
+</div>
+</div>
+
+
+				
+				<div class="col-md-4">
+				<div class="text-center">
+                        <div class="circle-soluciones"> 
+                          <i class="fas fa-code-branch fa-4x icon-identy"></i>
+                        </div>
+                        </div>
+              
+                         <div class="text-center-soluciones"> 
+                         
+                           <a type="button" class="nav-link js-scroll-trigger collapsed" data-toggle="popover" title="Perfilamiento " aria-haspopup="true" aria-expanded="false"aria-pressed="true" value="Submit" type="submit" data-content="Ofrecemos soluciones para la extracción automatizada de datos, así como el análisis predictivo resultado de ésta."><h3 class="white">Perfilamiento </h3></a>
+
+</div>
+</div>
+                         
+
+  
+			<div class="col-md-4">
+                        <div class="text-center">
+                        <div class="circle-soluciones"> 
+                          <i class="fas fa-code-branch fa-4x icon-identy"></i>
+                        </div>
+                        </div>
+                       <div class=" text-center-soluciones"> 
+                       
+                            <a type="button" class="nav-link js-scroll-trigger collapsed" data-toggle="popover" title="Custodia" aria-haspopup="false" aria-expanded="false"aria-pressed="true" value="Submit" type="submit" data-content="Protección de los datos en cada una de las etapas del proceso de producción del producto o servicio de nuestros clientes."><h3 class="white">Custodia</h3></a>
+
+</div>
+</div>                  
+</div>                        
+</div> 
+                       
+</div> <!-- end container -->
+                </div><!-- end row -->
+               </div>
+     </div><!-- end section -->
+</section>
+
+
+<!--<section id="servicios" class="wb">
+      <div id="blog" class="section ">
+          <div class="container">
+              <div class="section-title text-left">
+                  <h3>Nuestros servicios</h3>
+              </div>          
+              <div class="row">
+                  <div class="col-md-4 col-sm-6 col-lg-4">
+                      <div class="post-box">
+                          <div class="post-thumb">
+                              <img src="https://s3.amazonaws.com/datatobusiness.assets/imagenes/QueHacemos/Consultoria.jpg" class="img-fluid" alt="post-img" />
+                          </div>
+                          <br>
+                              <div id="accordion">
+                            <div class="card">
+                              <div class="card-header pointer" id="consulting">
+                                <h5 class="mb-0">
+                                  <h4 class="collapsed " data-toggle="collapse" data-target="#collapseConsulting" aria-expanded="false" aria-controls="collapseConsulting">
+                              Consultoría 
+                                    <br>
+                                  </h4>
+                                </h5>
+                              </div>
+                              <div id="collapseConsulting" class="collapse" aria-labelledby="consulting" data-parent="#accordion">
+                                <div class="card-body">
+                              <p class="text-justify">
+                                  Diagnóstico individual y propuestas de solución en materia de innovación y nuevas tecnologías, para cualquier empresa que busque mejorar su rendimiento a partir de tecnología e innovación. 
+                              </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                 <div class="col-md-4 col-sm-6 col-lg-4">
+                      <div class="post-box">
+                          <div class="post-thumb">
+                              <img src="https://s3.amazonaws.com/datatobusiness.assets/imagenes/QueHacemos/BusinessIntelligence.jpg" class="img-fluid" alt="post-img" />
+                          </div>
+                          <br>
+                              <div id="accordion">
+                            <div class="card">
+                              <div class="card-header pointer" id="business_intelligence">
+                                <h5 class="mb-0">
+                                  <h4 class="collapsed" data-toggle="collapse" data-target="#collapseBusiness_intelligence" aria-expanded="false" aria-controls="collapseBusiness_intelligence">
+                              Business Intelligence
+                                    <br>
+                                  </h4>
+                                </h5>
+                              </div>
+                              <div id="collapseBusiness_intelligence" class="collapse" aria-labelledby="business_intelligence" data-parent="#accordion">
+                                <div class="card-body">
+                             <p class="text-justify">
+                             Con software especializado es posible transformar los datos que generan las empresas en información, la cual a su vez será transformada en conocimiento, y este a su vez sea aprovechado en la toma de decisiones corporativas.  
+   
+                         </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-lg-4">
+                                          <div class="post-box">
+                          <div class="post-thumb">
+                              <img src="https://s3.amazonaws.com/datatobusiness.assets/imagenes/QueHacemos/desarrollodesft.jpg" class="img-fluid" alt="post-img" />
+                          </div>
+                          <br>
+                              <div id="accordion">
+                            <div class="card">
+                              <div class="card-header pointer" id="software_development">
+                                <h5 class="mb-0">
+                                  <h4 class="collapsed" data-toggle="collapse" data-target="#collapseSoftwareDevelopment" aria-expanded="false" aria-controls="collapseSoftwareDevelopment">
+                              Desarrollo de software
+                                    <br>
+                                  </h4>
+                                </h5>
+                              </div>
+                              <div id="collapseSoftwareDevelopment" class="collapse" aria-labelledby="software_development" data-parent="#accordion">
+                                <div class="card-body">
+                              <p class="text-justify">
+                              Creación de software especializado con el objetivo de cubrir necesidades específicas de cada empresa y brindar estrategias de solución al cliente antes, durante y después de este desarrollo.
+
+                          </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>   
+          </div>
+      </div>
+</section>-->
+
+<!--<section class="quarentine" id="quarentine">
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-4">
+        <i class="fas fa-house-user fa-10x"></i>
+      </div> 
+        <div class="col-md-8">
+          <p>Debido a la situación actual causada por COVID-19, buscamos ayudar a otras pequeñas empresas y emprendedores, a lograr su transición hacia el trabajo remoto, de la manera más sencilla y accesible para todos, compartiendo nuestra experiencia en el Home Office por medio de creación de páginas web y capacitaciones personalizadas a distancia. 
+
+          Gracias por quedarte en casa, cuidemos de tod@s.</p>
+        </div>
+      <div class="col-md-12 center">
+        <a class="color" href="/laoficina">¡Quiero saber mas!</a>
+        </div>
+    </div>
+  </div>
+</section>
+
+      <div id="services Productos" class=" container">
+          <div class="">
+              <div class="section-title text-left">
+                <div class="container"><h3>¿Cómo te ayudamos?</h3></div>
+              </div>
+                <div class="row">
+                    <div class="col-sm idt align-middle">
+                      <h4>Identificación</h4> 
+                        <p>Somos especialistas en la identificación automatizada de datos a partir de documentación, imágenes o video.</p>
+                        <a href="http://urby.datatobsn.com/"><button class="btn btn-primary">Urby</button></a>
+                        <a href=""><button class="btn btn-primary">Extract</button></a>
+                    </div>
+                    <div class="col-sm id ">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm profilet">
+
+
+                    </div>
+                    <div class="col-sm profile align-middle">
+                      <h4>Perfilamiento</h4>
+                        <p> Ofrecemos soluciones para la extracción de información automatizada, a partir de los datos que nuestros clientes generan como empresas, facilitando la toma de decisiones objetiva y certera. </p>
+                        <a href="https://virtual-xpo.herokuapp.com"><button class="btn btn-primary">Virtual-Xpo</button></a>
+                        <a href=""><button class="btn btn-primary">Profiler</button></a>
+                        <a href=""><button class="btn btn-primary">LaOficina</button></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm custodyt align-middle">
+                     <h4>Custodia</h4>
+                      <p> Protección de los datos en cada una de las etapas del proceso de producción del producto o servicio de nuestros clientes. </p>
+                        <a href=""><button class="btn btn-primary">Tracker</button></a>
+
+                    </div>
+                    <div class="col-sm custody">
+                    </div>
+                </div>
+            </div>end container -->
+<!--       </div>-->  <!-- end section -->
+
+
+
+<section class="contacto db">
+      <div id="contact" class="section" > 
+          <div class="container">
+              <div class="section-title text-left heading">
+                  <h2 class="text-left white">Contacto</h2>
+                  <p class="text-justifycards">Contáctanos para agendar una cita donde con gusto resolveremos todas tus dudas. </p>
+              </div><!-- end title -->
+
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="contact_form">
+                          <div id="message"></div>
+                          <form action="https://formspree.io/datatobsn@gmail.com" method="POST">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                              <input class="form-control" type="text" name="name" id="full-name" placeholder="Nombre completo" required="required" data-validation-required-message="Ingrese su nombre">
+
+                                          <p class="help-block text-danger"></p>
+                                      </div>
+                                      <div class="form-group">
+                                              <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@dominio.com" required="required" data-validation-required-message="Ingrese su correo">
+
+                                          <p class="help-block text-danger"></p>
+                                      </div>
+                                      <div class="form-group">
+                                          <input class="form-control" id="phone" type="tel" placeholder="Teléfono" required="required" data-validation-required-message="Ingrese su telefono">
+                                          <p class="help-block text-danger"></p>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                           <textarea rows="25" cols="20" name="message" id="message" placeholder="Su mensaje.." required=""></textarea>
+
+                                          <p class="help-block text-danger"></p>
+                                      </div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                                  <div class="col-lg-12 text-center">
+                                      <div id="success"></div>
+                                      <button  class="sim-btn btn-hover-new"   value="Submit" type="submit"><b>Contactar</b></button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div><!-- end col -->
+              </div><!-- end row -->
+          </div><!-- end container -->
+      </div><!-- end section -->
+</section>
+
+<section class="copyright">
+      <div class="copyrights">
+          <div class="container">
+              <div class="footer-distributed">
+                  <div class="footer-left">
+                      <p class="footer-links">
+                          <a href="#mainNav"><b>Inicio</b></a>
+                          <a href="#about"><b>Nosotros</b></a>
+                          <a href="#services"><b>Tecnología</b></a>
+
+                     </p>
+                      <a class="footer-company-name" href="https://www.facebook.com/Datatobsn-100219321470348/?modal=admin_todo_tour"><i class="fab fa-facebook-f fa-2x"></i></a>
+                      <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="http://www.datatobsn.com"><b>Datatobsn</b></a> Developed By : 
+                      <a href="https://github.com/DaliaElena"><b>Dalia</b></a> & <a href="https://github.com/uracilo"><b>Ben</b></a></p>
+                  </div>
+              </div>
+          </div><!-- end container -->
+      </div><!-- end copyrights -->
+</section>
+
+
+
+<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+
+<script src="{{url_for('static', filename = 'js/main.js')}}"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Hotjar Tracking Code for http://datatobsn.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1826042,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    
+    
+    $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
+</script>
+  </body>
+</html>
